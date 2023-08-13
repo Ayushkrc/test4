@@ -1,0 +1,256 @@
+*{
+    font-family: "Poppins", sans-serif;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background: #f2f2f2;
+}
+
+#nav{
+    background-color: #333;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0;
+}
+#logo{
+    display: flex;
+    
+}
+
+#logo a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+#opt{
+    justify-content: space-between;
+    gap: 35px;
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 700px;
+}
+
+#opt a{
+    color: white;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+#opt a:hover{
+    color: rgb(218, 213, 213);
+}
+
+#home{
+    background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)) , url(https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped);
+    background-size: cover;
+    background-position: center 65%;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+}
+#home h1 {
+    padding-top: 150px;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+#home p{
+    position: relative;
+    color: white;
+    font-size: 1.4rem;
+    width: 800px;
+    text-align: center;
+    margin-top: -25px;
+}
+#home a{
+    background-color: white;
+    height: 30px;
+    width: 150px;
+    padding-top: 18px;
+    padding-left: 30px;
+    text-decoration: none;
+    color: black;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+    transition: 0.3s ease;
+}
+
+#home a:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 2px solid white;
+}
+
+#services h1{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+}
+
+#services p{
+    font-size: 20px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 10px 80px;
+    margin-top: 60px;
+}
+
+.cards{
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    background-color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+    border-radius: 5px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+.cards img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 50px 40px;
+}
+
+.card-title{
+    font-weight: bolder;
+}
+
+.card-desc{
+    width: 350px;
+    padding-top: 20px;
+}
+
+#heading h1{
+    font-size: 35px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#heading p{
+    font-size: 18px;
+    text-align: center; 
+}
+#content{
+    margin-top: 60px;
+}
+
+.section-title{
+    padding-left: 120px;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.section-desc{
+    padding-left: 120px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    width: 85%;
+}
+
+#footer-heading{
+    text-align: center;
+}
+
+#footer-heading h1{
+    font-size: 35px;
+    font-weight: bolder;
+    margin-top: 100px;
+}
+
+
+#footer-heading{
+    font-size: 18px;
+}
+
+.deatils {
+    display: flex;
+    width: 650px;
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.material-symbols-outlined{
+    margin-left: 100px;
+    color: #333;
+}
+
+.icon-text{
+    padding-left: 15px;
+}
+
+#footer{
+    margin-top: 120px;
+    display: flex;
+    gap: 200px;
+    align-content: space-between;
+    height: 400px;
+}
+
+#message{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-top: -55px;
+}
+
+#name , #email{
+    height: 40px;
+    margin-bottom: 25px;
+}
+
+::placeholder{
+    font-size: 1.2rem;
+}
+
+#msg{
+    height: 150px;
+}
+
+#msg::placeholder{
+    margin-top: -50px;
+}
+
+#btn{
+    width: 170px;
+    height: 45px;
+    background-color: #333;
+    color: white;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    box-shadow: none;
+    margin-top: 20px;
+    border: 1px solid  #333;
+    text-align: center;
+}
